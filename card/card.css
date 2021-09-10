@@ -1,0 +1,19 @@
+.card-group {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 2rem;
+}
+.card {
+    width: 12rem;
+}
+.card:hover {
+    background-color: rgba(219, 112, 166, .1);
+}
+.card-image {
+    max-width: 100%;
+}
+@media screen and (max-width: 24rem) {
+    .card-group {flex-direction: column;}
+    .card {width: 100%;}
+}
