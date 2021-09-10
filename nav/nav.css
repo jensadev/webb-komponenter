@@ -23,7 +23,7 @@ p {
 }
 .navbar {
     min-height: 3rem;
-    background-color: #dcdcdc;
+    background-color: rgba(131, 51, 91);
 
     font-size: 1.6rem;
 }
