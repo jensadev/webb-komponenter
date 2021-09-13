@@ -24,3 +24,8 @@ body {
     padding-top: 3rem;
     padding-bottom: 4rem;
 }
+
+.footer-inner {
+    display: flex;
+    justify-content:space-between;
+}
