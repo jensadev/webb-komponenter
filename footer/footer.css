@@ -1,0 +1,26 @@
+/*
+cd code
+cd webb-komponenter
+cp -R card footer
+code .
+
+Ta bort card.css
+Skapa footer.css
+
+Ta bort card html ur index.html
+
+Länka css <link rel="stylesheet" href="footer.css">
+*/
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    margin-top: auto;
+    background-color: #f1f1f1;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
