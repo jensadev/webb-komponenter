@@ -1,0 +1,32 @@
+.card-group {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 2rem;
+
+    @media screen and (max-width: $breakpoint-md) {
+        flex-direction: column;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width:  $breakpoint-lg;
+
+    &:hover {
+        background-color: $primary;
+    }
+    &-image {
+        max-width: 100%;
+    }
+    &-footer {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: auto;
+    }
+
+    @media screen and (max-width: $breakpoint-md) {
+        width: 100%;
+    }
+}
