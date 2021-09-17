@@ -1,8 +1,13 @@
 $primary: #00aaff;
 
 $breakpoint-lg: 48rem;
-$breakpoint-md: $breakpoint-lg / 2;
+$breakpoint-md: div($breakpoint-lg, 2);
 $breakpoint-sm: $breakpoint-md / 2;
+
+@use "utilities/container";
+
+@use "components/card";
+
 
 $font-family: 'Comic Sans', sans-serif;
 
@@ -20,7 +25,3 @@ h1 {
 p {
     font-size: 1rem;
 }
-
-@import "utilities/container";
-
-@import "components/card";
