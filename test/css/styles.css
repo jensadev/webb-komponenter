@@ -1,0 +1,23 @@
+.container {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fefefe;
+  background-color: #121212;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
